@@ -1,0 +1,21 @@
+{
+    "1000": "Invalid Request",
+  
+    "1001": "partner_name is empty or null",
+    "1002": "partner_dev_mail is empty or null or the format is incorrect",
+    "1003": "partner_dev_apps is empty or null",
+    "1004": "bank_account is empty or null or the format is not numeric",
+    "1005": "fetch_job_schedule is empty or null",
+    "1006": "debit_job_schedule is empty or null",
+  
+    "1007": "dev_app_name in partner_dev_apps is empty or null",
+    "1008": "product is empty or null",
+  
+    "1009": "product_name in product is empty or null",
+    "1010": "fee_amount in product is empty or null or the format is a number",
+  
+    "0299": "Record Not Found",
+    "0298": "Duplicate value partner_name or partner_dev_mail",
+  
+    "0501" : "data inserted but cronjob did not sync"
+  }

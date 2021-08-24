@@ -1,0 +1,25 @@
+{
+    "1000": {"var": "ErrInvalidRequestFamily", "msg": "Invalid Request"},
+  
+    "1001": {"var": "ErrPartnerName", "msg":"partner_name is empty or null"},
+    "1002": {"var": "ErrPartnerDevMail", "msg":"partner_dev_mail is empty or null or the format is incorrect"},
+    "1003": {"var": "ErrPartnerDevApp", "msg":"partner_dev_apps is empty or null"},
+    "1004": {"var": "ErrPartnerBankAccount", "msg":"bank_account is empty or null or the format is not numeric"},
+    "1005": {"var": "ErrPartnerFetchSchedule", "msg":"fetch_job_schedule is empty or null"},
+    "1006": {"var": "ErrPartnerDebitSchedule", "msg":"debit_job_schedule is empty or null"},
+  
+    "1007": {"var": "ErrDevAppName", "msg":"dev_app_name in partner_dev_apps is empty or null"},
+    "1008": {"var": "ErrDevAppProducts", "msg":"product is empty or null"},
+  
+    "1009": {"var": "ErrProductCodeID", "msg":"product_code_id in product is empty or null"},
+    "1010": {"var": "ErrProductFeeAmount", "msg":"fee_amount in product is empty or null or the format is a number"},
+    "1011": {"var": "ErrCheckDate", "msg":"cannot be updated partner on 1 to 15"},
+    "1012": {"var": "ErrPartnerCode", "msg":"invalid partner_code"},
+  
+    "0299": {"var": "ErrRecordNotFound", "msg":"Record Not Found"},
+    "0298": {"var": "ErrDuplicate", "msg":"Duplicate value partner_name or partner_dev_mail"},
+  
+    "0501" : {"var": "ErrInsertedButSyncFail", "msg":"data inserted but cronjob did not sync"},
+  
+    "9999": {"var": "ErrUnexpectedError", "msg": "Unexpected Error"}
+  }
