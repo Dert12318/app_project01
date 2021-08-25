@@ -1,17 +1,25 @@
 package env
 
 import (
-	"/models"
+	"app_project01/models"
+	"fmt"
+
+	"github.com/caarlos0/env"
+	"github.com/joho/godotenv"
 )
 
 var Config models.ServerConfig
 
-
-
+func init() {
+	err := loadConfig()
+	if err != nil {
+		fmt.Printf(err)
+	}
+}
 func loadConfig() (err error) {
 	err = godotenv.Load()
 	if err != nil {
-		logrus.Fatal(err, " config/env: load gotdotenv")
+
 	}
 
 	err = env.Parse(&Config)
